@@ -5,8 +5,8 @@ grapes = float(input())
 liters_needed = int(input())
 people = int(input())
 
-obshto_grozde = vineyard * grapes
-vino = 0.4 * (obshto_grozde / 2.5)
+total_grapes = vineyard * grapes
+vino = 0.4 * (total_grapes / 2.5)
 
 diff = abs(vino - liters_needed)
 
