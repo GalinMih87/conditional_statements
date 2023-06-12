@@ -6,12 +6,12 @@ liters_needed = int(input())
 people = int(input())
 
 total_grapes = vineyard * grapes
-vino = 0.4 * (total_grapes / 2.5)
+wine = 0.4 * (total_grapes / 2.5)
 
-diff = abs(vino - liters_needed)
+diff = abs(wine - liters_needed)
 
-if vino < liters_needed:
+if wine < liters_needed:
     print(f"It will be a tough winter! More {floor(diff)} liters wine needed.")
-elif vino >= liters_needed:
-    print(f"Good harvest this year! Total wine: {floor(vino)} liters.")
+elif wine >= liters_needed:
+    print(f"Good harvest this year! Total wine: {floor(wine)} liters.")
     print(f"{ceil(diff)} liters left -> {ceil(diff / people)} liters per person.")
