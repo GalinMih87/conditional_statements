@@ -1,11 +1,11 @@
 from math import floor, ceil
 
 vineyard = int(input())
-grozde_kwm = float(input())
+grapes = float(input())
 nujni_litri = int(input())
 robi = int(input())
 
-obshto_grozde = vineyard * grozde_kwm
+obshto_grozde = vineyard * grapes
 vino = 0.4 * (obshto_grozde / 2.5)
 
 diff = abs(vino - nujni_litri)
