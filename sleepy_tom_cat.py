@@ -1,9 +1,9 @@
 holidays = int(input()) # Да го променя на английски език!!!
 norm_of_play = 30000 # Да го променя на английски език!!!
 
-pochivni_dni_minuti = holidays * 127 # Да го променя на английски език!!!
+holidays_in_minutes = holidays * 127 # Да го променя на английски език!!!
 rabotni_dni_minuti = (365 - holidays) * 63 # Да го променя на английски език!!!
-obshto_minuti = pochivni_dni_minuti + rabotni_dni_minuti # Да го променя на английски език!!!
+obshto_minuti = holidays_in_minutes + rabotni_dni_minuti # Да го променя на английски език!!!
 
 diff = abs(norm_of_play - obshto_minuti) # Да го променя на английски език!!!
 
